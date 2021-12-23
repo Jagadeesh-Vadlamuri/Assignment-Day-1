@@ -1,0 +1,50 @@
+1. To read
+	a. Difference between statically typed and dynamically typed languages
+	b. Scripting and Programming languages
+	c. Paradigms
+
+Ans : Read thoroughly 
+
+2. Write a blog on Difference between HTTP1.1 and HTTP2 ?
+
+Ans:
+
+HTTP1.1 - 
+a. HTTP stands for HyperTextTransferProtocol and it's version HTTP1.1 was introduced in 1997 which is a bit advanced version compared to HTTP1
+b. It supports multiple requests and responses from every TCP connection unlike single request/response from HTTP1
+c. The Upgrade header was used to indicate a preference from the client and made it possible to switch to a more preferred protocol if found appropriate by the server
+d. pipelining which is the second request is sent before the response to the first works properly
+e. content negotiation which is an exchange between client and server to determine the media type, it also provides the way to serve different versions of a resource at the same URL
+
+HTTP2 -
+a. It introduces the multiplexing that leaves the requests and responses without head-of-line blocking and it would be doing over a single TCP connection.
+b. It is a binary protocol i.e. only binary commands in the form of 0s and 1s are transmitted over the wire
+c. It uses HPACK header compression algorithm that is resilient to attacks like CRIME and utilizes static Huffman 
+d. Security concerns from previous versions will continue to be seen in HTTP/2 but, it is better equipped to deal with them due to new TLS features like connection error of type Inadequate_Security
+e. HTTP/2 penetration on the client side is more than 70% as most major browsers support HTTP/2 and on the server side we have major tech giants like Google, Facebook, Nginx, etc
+
+3. Write a blog about objects and its internal representation in Javascript ?
+
+Ans:
+
+1. Objects in Javascript are used to store multiple variables unlike other datatypes like Number/String/boolean/null etc..,
+2. Objects store properties and it's values like "key:value" pairs covered with curly braces
+3. We can call the object property values with a dot notation combined with property name
+   Eg: let a = {"name":"Jagadeesh", "age":"24", "location":"Hyderabad"}
+   Now, to call any value, Print a.name, a.age, a.location which gives the results "Jagadeesh",         "24", "Hyderabad".
+4. We can also call the object property values with a box notation like below
+   Eg: let a = {"name":"Jagadeesh", "age":"24", "location":"Hyderabad"}
+   Now, to call any value, Print a['name'], a['age'], a['location']
+5. Now, to print all the properties and their values in an object, we can use a for loop.
+   Among all the for loops available, "for-in" loop would be most feasible loop to use for objects as    we need to call both keys or values or both which is possible with "for-in" loop.
+6. An Object can also be created using "new" keyword and set the values for it
+   var job = new Object();
+   job.name = "IT Employee";
+   job.designation = "Test Engineer";
+   job.location = "Bangalore";
+
+4. Codekata Practice ?
+
+Ans:
+
+80 Geekscoins have been earned thru codekata problem solving today
